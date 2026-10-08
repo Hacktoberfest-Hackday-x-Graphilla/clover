@@ -1,4 +1,4 @@
-Kodiset
+#Kodiset
 
     Paste a GitHub repo link. Kodiset tells you what the project already solved, which issues are still free, whether the project is alive, and plans your first contribution at your level, so you understand what you ship.
 
