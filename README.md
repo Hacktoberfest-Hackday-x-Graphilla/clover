@@ -115,7 +115,7 @@ run_ai() — 4 Gemma calls in parallel (ThreadPoolExecutor)
 5 tabs:  First contribution | Solved | People & Branches
          Need help | Repo check
   + find_unverified_paths() check
-  + draft_issue_comment() on demand
+  + draft_issue_comment()
 
 Caching: each owner/repo gets its own cache entry. The token is excluded from the cache key on purpose.
 Project structure
@@ -124,9 +124,7 @@ app.py             → Streamlit UI, caching, parallel AI runner, 5-tab results
 brain.py           → All Gemma prompts + file-path verifier
 github_client.py   → All GitHub REST calls + issue↔PR linker + health check
 levels.py          → Level quiz + local profile.json load/save
-requirements.txt   → streamlit, google-genai, requests
-test_kodiset.py    → Offline unit tests (no internet, no key)
-test_app.py        → Headless Streamlit UI test (GitHub + Gemma mocked)
+requirements.txt   → streamlit, google-genai, request
 
 Task of each file
 
@@ -234,10 +232,12 @@ Known limits
     Tested with mocked GitHub and Gemma. Results on very large repos may vary.
 
 👥 Team Clover
+
 Name 	Role
-Sakshyam parajuli 	main-developer
+
+Sakshyam parajuli 	main-developer Leadet
 Sachin aryal 	sub-developer
 Niroj Gyawali 	researcher
-Sambhav Bashyal 	Leader
+Sambhav Bashyal 	sub-devloper reasearcher
 
 KODISET - Contribute with understanding, not just generated code.
