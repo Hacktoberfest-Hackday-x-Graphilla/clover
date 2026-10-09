@@ -1,6 +1,7 @@
 #Kodiset
-
-    Paste a GitHub repo link. Kodiset tells you what the project already solved, which issues are still free, whether the project is alive, and plans your first contribution at your level, so you understand what you ship.
+    Plenty of sites alread help newcomers find open source, but they mostly hand out generic suggestions that ignore what you can actually do. Code Is It starts from your coding profile. It analyzes your real skills, then connects you, beginner or advanced, to existing projects where you can make a meaningful contribution.
+    
+What Kodiset is: This is the start, not the finished product. Right now the focus is this repository: the issues, and guiding you through the process and the repo itself. Integrations with good-first-issue style sites are planned but not in place yet.
 
 Kodiset helps Beginner, Intermediate and Advanced developers go from reading a repository to contributing to it: understanding the README, exploring the file tree, checking whether an issue is taken, reading the project's rules, and opening a correct pull request.
 
